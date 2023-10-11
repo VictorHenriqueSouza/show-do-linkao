@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Show do Linkao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--MODALGANHOU-->
+    <div class="modal-container">
+        <div class="modal fechado" id="ganhou">
+            <p class="texto-modal">RESPOSTA CERTA!</p>
+            <p class="texto-modal">FALTAM <span class="numero-progresso" id="faltam-perguntas">9</span> PERGUNTAS PARA O 1MILHÃO!</p>
+            <div class="barra-container">
+                <p class="progresso-numero">1 </p>
+                <div class="border-barra">
+                    <div class="barra-de-progresso" id="barra-de-progresso1"></div>
+                </div>
+                <p class="progresso-numero"> 10</p>
+            </div>
+            <p class="botaofechar-modal" id="button-ganhou"><img src="img/logo-futrading.png" class="logo-fechar"></p>
+        </div>
+    </div>
+    <!--MODALPERDEU-->
+    <div class="modal-container">
+        <div class="modal fechado" id="perdeu">
+            <p class="texto-modal">RESPOSTA ERRADA! :(</p>
+            <p class="botaofechar-modal" id="button-perdeu"><img src="img/logo-futrading.png" class="logo-fechar"></p>
+        </div>
+    </div>
+    <!--MODALGANHOU1KK-->
+    <div class="modal-container">
+        <div class="modal-premio fechado" id="modal-1kk">
+            <p class="texto-modal-premio">PARABENS VOCÊ GANHOU 1KK!</p>
+            <p class="botaofechar-modal" id="button-perdeu"><img src="img/logo-futrading.png" class="logo-fechar"></p>
+        </div>
+    </div>
+    <!--TELAINICAL-->
+    <div class="pagina-inicial" id="pagina-inicial">
+        <img src="img/logo-showdolinkao.png" class="logo-img">
+        <p class="play" id="comecar">PLAY</p>
+    </div>
+    <!--pergunta-->
+   <section class="question-placar fechado" id="game">
+        <div class="question-section">
+            <div id="questao">
+                <div class="question">
+                    <h1 id="enunciado"></h1>
+                </div>
+                <div>
+                    <p id="cronometro">00</p>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA"></p>
+                    <p class="alternativa-container" id="alternativaB"></p>
+                    <p class="alternativa-container" id="alternativaC"></p>
+                    <p class="alternativa-container" id="alternativaD"></p>
+                </div>
+            </div>
+        </div>
+        <div class="botoes-interacao">
+            <div class="barra-container">
+                <p class="progresso-numero">1 </p>
+                <div class="border-barra">
+                    <div class="barra-de-progresso" id="barra-de-progresso2"></div>
+                </div>
+                <p class="progresso-numero" id="numeroTotalPerguntas"> </p>
+            </div>
+        </div>
+   </section>
+   <script src="main.js"></script>
+</body>
+</html>

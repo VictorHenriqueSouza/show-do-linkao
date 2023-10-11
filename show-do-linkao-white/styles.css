@@ -1,0 +1,185 @@
+:root{
+    --verde: #04DC6a;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-size: 100%;
+    background-image: url("img/bg-inicial.png");
+}
+.pagina-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20rem;
+}
+.play{
+    background-color: black;
+    padding: 0.3rem 7rem 0.3rem 7rem;
+   cursor: pointer;
+   color: whitesmoke;
+   font-size: 2.5rem;
+   margin-top: 0.5rem;
+   border: 1px solid var(--verde);
+}
+
+.play:hover{
+    background-color: #04DC6a;
+    color: whitesmoke;
+}
+.logo-img{
+    width: 50%;
+}
+
+.question-section{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    margin-top: 11rem;
+    padding: 0rem 3rem 3rem 3rem; 
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    color:black;
+}
+
+.question{
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.alternativas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.alternativa-container{
+    border: 2px solid black;
+    margin: 1rem;
+    cursor: pointer;
+    padding: 8px;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+}
+.alternativa-container:hover{
+    background-color: var(--verde);
+    color: black;
+}
+
+.botoes-interacao{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1px;
+    font-size: 2rem;
+    color: white;
+}
+
+.botaofechar{
+    background-color: var(--verde);
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    color: white;
+    margin-top: 2rem;
+}
+.logo-fechar{
+    width: 15%;
+}
+
+.modal-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal{
+    position:fixed;
+    z-index: 1;
+    color:black;
+    background-image: url("img/bg-game.png");
+    background-size: cover;
+    border: 3px solid black;
+    margin-top: 3rem;
+    padding: 10rem;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-premio{
+    position:fixed;
+    z-index: 1;
+    color:black;
+    background-image: url("img/bg-inicial.png");
+    background-size: cover;
+    border: 3px solid black;
+    margin-top: 3rem;
+    padding: 10rem;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 45%;
+}
+
+.texto-modal{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.texto-modal-premio{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 15rem;
+}
+
+.barra-container{
+    display: flex;
+}
+
+.barra-de-progresso{
+    background-color: var(--verde);
+    padding:10px;
+    width: 0;
+    height: 100%;
+}
+.numero-progresso{
+    color: var(--verde);
+}
+
+.border-barra{
+    border: 3px solid black;
+    width: 40rem;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+}
+.progresso-numero{
+    color: black;
+    font-size: 2rem;
+}
+
+.botaofechar-modal{
+    background-color: #04DC6a;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    color: white;
+    margin-top: 2rem;
+    width: 43rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fechado{
+    display: none;
+}
+
