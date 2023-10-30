@@ -38,7 +38,7 @@ const perguntas =[
     {Anunciado: '2/10 - QUAL DESTES É UM MÉTODO DE ADQUIRIR JOGADORES NO UT?', opcoes: ['A) COMPRA DIRETA', 'B) ADOÇÃO', 'C) EMPRÉSTIMO PERMANENTE', 'D) SORTEIO GRATUITO'] , certa: 0},
     {Anunciado: '3/10 - QUAL JOGADOR É CONHECIDO POR SER A CAPA DO FIFA 20?', opcoes: ['A) LIONEL MESSI', 'B) CRISTIANO RONALDO', 'C) NEYMAR JR.', 'D) EDEN HAZARD'] , certa: 3},
     {Anunciado: '4/10 - QUANTOS JOGADORES EXISTEM NO BANCO DE RESERVAS DO UT?', opcoes: ['A) 5', 'B) 7', 'C) 9', 'D) 11'] , certa: 1},
-    {Anunciado: '5/10 - QUAL DESSAS É UMA POSIÇÃO DE JOGADOR VÁLIDA NO FUT?', opcoes: ['A) GOLEIRO', 'B) ATACANTE ALADO', 'C) CENTROAVANTE DEFENSIVO', 'D) MEIO-CAMPO OFENSIVO'] , certa: 0},
+    {Anunciado: '5/10 - QUAL DESSAS É UMA POSIÇÃO DE JOGADOR VÁLIDA NO FUT?', opcoes: ['A) GOLEIRO', 'B) ATACANTE ALADO', 'C) CENTROAVANTE DEFENSIVO', 'D) MEIO-CAMPO LATERAL'] , certa: 0},
     {Anunciado: '6/10 - QUE JOGADOR FOI A PRINCIPAL ESTRELA DA CAPA DO FIFA19?', opcoes: ['A) CRISTIANO RONALDO', 'B) NEYMAR', 'C) MESSI', 'D) REUS'] , certa: 0},
     {Anunciado: '7/10 - O UT COMEÇOU COMO UMA "DLC PAGA" DENTRO DO FIFA, QUANDO ELE SE TORNOU GRATUITO?', opcoes: ['A) FIFA09', 'B) FIFA10', 'C) FIFA 11', 'D) FIFA 12'] , certa: 2},
     {Anunciado: '8/10 - QUANDO FOI LANÇADO O PRIMEIRO JOGO DA SAGA FIFA?', opcoes: ['A) 1993', 'B) 1994', 'C) 1995', 'D) 1996'] , certa: 0},
