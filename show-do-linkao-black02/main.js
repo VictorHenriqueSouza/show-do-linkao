@@ -34,9 +34,9 @@ let isRunning = false;
 var progresso = 0;
 var numeroDaQuestao = 0;
 const perguntas =[
-    {Anunciado: '1/10 - QUAL É A RARIDADE MAIS ALTA PARA UM CARTA DE JOGADOR DO UT?', opcoes: ['A) BRONZE', 'B) PRATA', 'C) OURO', 'D) ESPECIAL'] , certa: 3},
-    {Anunciado: '2/10 - QUAL DESTES É UM MÉTODO DE ADQUIRIR JOGADORES NO UT?', opcoes: ['A) COMPRA DIRETA', 'B) ADOÇÃO', 'C) EMPRÉSTIMO PERMANENTE', 'D) SORTEIO GRATUITO'] , certa: 0},
-    {Anunciado: '3/10 - QUAL JOGADOR É CONHECIDO POR SER A CAPA DO FIFA 20?', opcoes: ['A) LIONEL MESSI', 'B) CRISTIANO RONALDO', 'C) NEYMAR JR.', 'D) EDEN HAZARD'] , certa: 3},
+    {Anunciado: '1/10 - QUANTAS PARTIDAS TINHAM O FUT CHAMPIONS QUANDO COMEÇOU??', opcoes: ['A) 10', 'B) 20', 'C) 30', 'D) 40'] , certa: 3},
+    {Anunciado: '2/10 - QUAL É A MOEDA PRINCIPAL USADA NO FUT?', opcoes: ['A) COINS', 'B) FUT DOLLAR', 'C) FUT EURO', 'D) FUT YEN'] , certa: 0},
+    {Anunciado: '3/10 - QUAL JOGADOR É CONHECIDO POR SER A CAPA DO FIFA 13?', opcoes: ['A) LIONEL MESSI', 'B) CRISTIANO RONALDO', 'C) NEYMAR JR.', 'D) EDEN HAZARD'] , certa: 0},
     {Anunciado: '4/10 - QUANTOS JOGADORES EXISTEM NO BANCO DE RESERVAS DO UT?', opcoes: ['A) 5', 'B) 7', 'C) 9', 'D) 11'] , certa: 1},
     {Anunciado: '5/10 - QUAL DESSAS É UMA POSIÇÃO DE JOGADOR VÁLIDA NO FUT?', opcoes: ['A) GOLEIRO', 'B) ATACANTE ALADO', 'C) CENTROAVANTE DEFENSIVO', 'D) MEIO-CAMPO LATERAL'] , certa: 0},
     {Anunciado: '6/10 - QUE JOGADOR FOI A PRINCIPAL ESTRELA DA CAPA DO FIFA19?', opcoes: ['A) CRISTIANO RONALDO', 'B) NEYMAR', 'C) MESSI', 'D) REUS'] , certa: 0},

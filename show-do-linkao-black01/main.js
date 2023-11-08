@@ -35,15 +35,15 @@ var progresso = 0;
 var numeroDaQuestao = 0;
 const perguntas =[
     {Anunciado: '1/10 - QUANTAS SUBSTITUIÇÕES VOCÊ PODE FAZER DURANTE UMA PARTIDA DO UT?', opcoes: ['A) 1', 'B) 3', 'C) 5', 'D) ILIMITADAS'] , certa: 2},
-    {Anunciado: '2/10 - QUANTAS DIFICULDADES EXISTEM NO SQUAD BATTLES??', opcoes: ['A) DESAFIOS DE CONSTRUÇÃO DE ELENCO (DME)', 'B) DESAFIOS DE HABILIDADE (DDH)', 'C) DESAFIOS DE AGILIDADE (DDA)', 'D) DESAFIOS DE RESISTÊNCIA (DDR)'], certa: 0},
-    {Anunciado: '3/10 - QUAL JOGADOR É CONHECIDO POR SER A CAPA DO FIFA 21?', opcoes: ['A) 5', 'B) 6', 'C) 7', 'D) 8'] , certa: 2},
-    {Anunciado: '4/10 - QUAL É O PROPÓSITO DAS CARTAS DE CONSUMÍVEIS NO UT?', opcoes: ['A) MELHORAR TEMPORARIAMENTE OS ATRIBUTOS DO JOGADOR', 'B) COMPRAR NOVOS JOGADORES', 'C) MELHORAR PERMANENTEMENTE OS ATRIBUTOS DO JOGADOR', 'D) CURAR LESÕES, AUMENTAR CONTRATOS E MUDAR ESTILO DE QUÍMICA'], certa: 3},
-    {Anunciado: '5/10 - O QUE AS CARTAS DE TÉCNICO FAZEM NO UT?', opcoes: ['A) MELHORAM OS ATRIBUTOS DOS JOGADORES', 'B) MELHORAM A QUÍMICA DA EQUIPE', 'C) PERMITEM QUE VOCÊ ALTERE A FORMAÇÃO DA EQUIPE', 'D) CONCEDEM ACESSO A MAIS JOGOS'], certa: 1},
-    {Anunciado: '6/10 - QUAL É A SÉRIE ANUAL DE JOGOS DE FUTEBOL RIVAL DO EAFC?', opcoes: ['A) EFOOTBALL', 'B)  FOOTBALL MANAGER', 'C) FIFA STREET', 'D) TOP ELEVEN'] , certa: 0},
-    {Anunciado: '7/10 - QUAL FOI O PRIMEIRO FIFA A INCLUIR A LICENÇA OFICIAL DA UEFA CHAMPIONS LEAGUE?', opcoes: ['A) FIFA 16', 'B) FIFA 17', 'C) FIFA 18', 'D) FIFA 19'] , certa: 2},
-    {Anunciado: '8/10 - QUAL FOI A ÚLTIMA CARTA NO UT DE NEYMAR PELO SANTOS?', opcoes: ['A) FIFA 11', 'B) FIFA12', 'C) FIFA13', 'D) FIFA14'] , certa: 2},
-    {Anunciado: '9/10 - QUAL FOI A PRIMEIRA EDIÇÃO DO FIFA A INCLUIR TIMES DE FUTEBOL FEMININO?', opcoes: ['A) FIFA 12', 'B) FIFA 16', 'C) FIFA 19', 'D) FIFA 20'] , certa: 1},
-    {Anunciado: '10/10 - QUANTAS CARTAS COM 99 DE OVERALL TIVEMOS NO FIFA23?', opcoes: ['A) 15', 'B) 19', 'C) 25', 'D) 18'] , certa: 1},
+    {Anunciado: '2/10 - QUANTAS DIFICULDADES EXISTEM NO SQUAD BATTLES??', opcoes: ['A) 5', 'B) 6', 'C) 7', 'D) 8'], certa: 2},
+    {Anunciado: '3/10 - QUAL JOGADOR É CONHECIDO POR SER A CAPA DO FIFA 21?', opcoes: ['A)LIONEL MESSI', 'B) CRISTIANO RONALDO', 'C) NEYMAR JR', 'D) KYLIAN MBAPPÉ'] , certa: 3},
+    {Anunciado: '4/10 - QUANTOS JOGADORES EXISTEM NO BANCO DE RESERVAS NO FUT?', opcoes: ['A) 5', 'B) 7', 'C) 9', 'D) 11'], certa: 1},
+    {Anunciado: '5/10 - QUAL DOS SEGUINTES É UM MODO DE JOGO DISPONIVEL NO FC24?', opcoes: ['A) DRAFT', 'B) MODO AVENTURA', 'C) FIFA ULTIMATE TEAM', 'D) MODO CAMPANHA'], certa: 0},
+    {Anunciado: '6/10 - QUAL É O VALOR MÁXIMO DE QUÍMICA QUE UM JOGADOR PODE TER NO UT?', opcoes: ['A) 33', 'B) 2', 'C) 100', 'D) 3'] , certa: 3},
+    {Anunciado: '7/10 - EM QUE FIFA O ULTIMATE TEAM FOI LANÇADO OFICIALMENTE?', opcoes: ['A) FIFA 08', 'B) FIFA 09', 'C) FIFA 10', 'D) FIFA 11'] , certa: 1},
+    {Anunciado: '8/10 - O MODO UT COMEÇOU COMO UMA DLC PAGA, QUANDO ELE SE TORNOU GRATUITO?', opcoes: ['A) FIFA 09', 'B) FIFA10', 'C) FIFA11', 'D) FIFA12'] , certa: 2},
+    {Anunciado: '9/10 - QUAL A CARTA COM MENOR VELOCIDADE DO FIFA23?', opcoes: ['A) RONNY MONTERO', 'B) PETER CLARKE', 'C) DREW MOOR', 'D) PAUL HUNTINGTON'] , certa: 0},
+    {Anunciado: '10/10 - QUANTAS CARTAS ESPECIAIS DO CRISTIANO RONALDO TEVE NO FIFA22?', opcoes: ['A) 5', 'B) 8', 'C) 9', 'D) 10'] , certa: 3},
 ]
 var perguntasFaltam = perguntas.length - 1;
 
